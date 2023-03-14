@@ -7,4 +7,6 @@ bot.on("message", ctx => {
     ctx.reply("hello world")
 })
 
-export default webhookCallback(bot, "http")
+export default function handler(req, res) {
+    res.status(200).json({"status": "hello world"})
+}
