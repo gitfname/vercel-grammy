@@ -7,8 +7,8 @@ bot.on("message", ctx => {
     ctx.reply("hello world")
 })
 
-bot.command("say_hi", ctx => {
-    ctx.reply("ok. hiiiii")
+bot.command("start", ctx => {
+    ctx.reply("settings here")
 })
 
 export default webhookCallback(bot, "next-js")
