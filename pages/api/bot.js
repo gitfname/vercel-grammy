@@ -8,7 +8,7 @@ bot.command("start", ctx => {
 })
 
 bot.on("message", ctx => {
-    ctx.reply("hello world")
+    ctx.reply("hello world. and all guys")
 })
 
 
