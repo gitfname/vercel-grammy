@@ -7,7 +7,7 @@ bot.on("message", ctx => {
     ctx.reply("hello world")
 })
 
-bot.command("say-hi", ctx => {
+bot.command("say_hi", ctx => {
     ctx.reply("ok. hiiiii")
 })
 
