@@ -7,6 +7,4 @@ bot.on("message", ctx => {
     ctx.reply("hello world")
 })
 
-export default function handler(req, res) {
-    return webhookCallback(bot, "http")
-}
+export default webhookCallback(bot, "next-js")
